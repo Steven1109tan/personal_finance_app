@@ -1,0 +1,16 @@
+{
+    "presets": ["@babel/preset-react"]
+}
+//   Save the .babelrc file.
+//   By having a separate .babelrc file, Babel will automatically detect and apply the specified presets during the test build process. This ensures that JSX syntax is properly transpiled and understood by Jest when running your tests.
+  
+//   Note that the .babelrc file is a JSON file, so make sure to use valid JSON syntax in the configuration.
+  
+//   After making these changes, you should be able to run your tests without encountering the "SyntaxError: Support for the experimental syntax 'jsx' isn't currently enabled" issue.
+  
+  
+  
+  
+  
+  
+  
