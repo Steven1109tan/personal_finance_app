@@ -22,7 +22,7 @@ function App() {
   return (
     <Container className="d-flex justify-content-center p-0" style={{ minHeight: "100vh" }}>
       <div className="w-100" style={{ maxWidth: "1000px" }}>
-        <Router>
+        <Router basename="/personal_finance_app_steven">
           <AuthProvider>
             <BudgetsProvider>
               <Routes>
